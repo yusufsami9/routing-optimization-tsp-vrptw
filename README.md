@@ -59,7 +59,7 @@ All models are implemented as Mixed-Integer Programming (MIP) formulations and s
 - Matplotlib  
 
 ---
-.
+
 ├── src/ # Python implementations of all models
 ├── results/ # Selected plots / outputs
 ├── report/ # Final report (PDF)
@@ -71,7 +71,7 @@ All models are implemented as Mixed-Integer Programming (MIP) formulations and s
 
 **Objective value per iteration for DFJ with lazy cut generation (25 customers):**
 
-![Objective per iteration](results/objective_value_per_iteration_25_customers.png)
+![Objective per iteration](results/objective_plot_25_customers.png)
 
 This plot illustrates how the objective value evolves as violated subtour elimination constraints are iteratively added to the model.
 
